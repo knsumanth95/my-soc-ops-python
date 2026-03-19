@@ -291,7 +291,7 @@
             const textArea = document.createElement('textarea');
             textArea.value = text;
             textArea.setAttribute('readonly', '');
-            textArea.style.cssText = 'position: fixed; top: -9999px; left: -9999px; opacity: 0; pointer-events: none;';
+            textArea.style.cssText = 'position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; border: 0; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap;';
             document.body.appendChild(textArea);
             textArea.select();
 
