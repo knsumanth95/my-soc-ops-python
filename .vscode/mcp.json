@@ -6,7 +6,8 @@
       "args": [
         "@playwright/mcp@latest",
         "--browser=msedge",
-        // "--headless=true"  // Run in faster headless mode
+        "--headless",
+        "--no-sandbox"
       ]
     }
   }
